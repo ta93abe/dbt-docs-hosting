@@ -16,3 +16,10 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: my_third_dbt_model
+      description: "thrid model"
+      columns:
+        - name: id
+          description: "identifier"
+          data_tests:
+            - unique
